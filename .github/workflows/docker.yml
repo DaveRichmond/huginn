@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        image: [ multi-process, single-process ]
+        image: [ single-process ]
     steps:
       - name: pre setup cleanup
         run: |
